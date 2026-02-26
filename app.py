@@ -32,6 +32,6 @@ with col2:
     if modo == 'pizza':
        st.write('really?')
     if modo == 'coffee':
-       st.write('that's a drink')
+       st.write('that is a drink')
     if modo == 'avocado':
        st.write('you are weird')
