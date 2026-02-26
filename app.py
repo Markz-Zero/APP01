@@ -25,6 +25,8 @@ with col1:
        st.write('correct')
     if resp2:
         st.write("you are fooling yourself")
+    if resp1 and resp2:
+        st.write("you are wise")
   
 with col2:
     st.subheader("this one is also correct")
