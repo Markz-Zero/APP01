@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("mi primera pagina con streamlit")
+st.title("THIS IS A SIMULATION")
