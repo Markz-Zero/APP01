@@ -8,3 +8,6 @@ st.write("this one is not a simulation.")
 
 image = Image.open("winds.png")
 st.image(image, caption="background")
+
+texto = st.text_input('Escribe algo', 'Este no es tu texto')
+st.write('El texto escrito es', texto)
