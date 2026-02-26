@@ -44,18 +44,18 @@ if st.button('Press it'):
 else:
     st.write('Maybe you should')
 
-st.subheader("Selectbox")
+st.subheader("drop menu")
 in_mod = st.selectbox(
-    "Selecciona la modalidad",
-    ("Audio", "Visual", "Háptico"),
+    "Order something",
+    ("french fries", "soda", "salad"),
 )
-if in_mod == "Audio":
-    set_mod = "Reproducir audio"
-elif in_mod == "Visual":
-    set_mod = "Reproducir video"
-elif in_mod == "Háptico":
-    set_mod = "Activar vibración"
-st.write(" La acción es:" , set_mod)
+if in_mod == "french fries":
+    set_mod = "mon deux"
+elif in_mod == "soda":
+    set_mod = "we only got pepsi"
+elif in_mod == "salad":
+    set_mod = "fitness is bad for you"
+st.write("The reply is:" , set_mod)
 
 
 with st.sidebar:
