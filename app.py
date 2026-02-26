@@ -19,16 +19,19 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("this is the first")
     st.write("choice is an illusion")
-    resp = st.checkbox('true')
-    if resp:
+    resp1 = st.checkbox('true')
+    resp2 = st.checkbox('false')
+    if resp1:
        st.write('correct')
+    if resp2:
+        st.write("you are fooling yourself")
   
 with col2:
     st.subheader("this one is also correct")
-    modo = st.radio("Que Modalidad es la principal en tu interfaz", ('Visual', 'auditiva', 'Táctil'))
-    if modo == 'Visual':
-       st.write('La vista es fundamental para tu interfaz')
-    if modo == 'auditiva':
-       st.write('La audición es fundamental para tu interfaz')
-    if modo == 'Táctil':
-       st.write('El tacto es fundamental para tu interfaz')
+    modo = st.radio("What's the best food", ('pizza', 'coffee', 'avocado'))
+    if modo == 'pizza':
+       st.write('really?')
+    if modo == 'coffee':
+       st.write('that's a drink')
+    if modo == 'avocado':
+       st.write('you are weird')
