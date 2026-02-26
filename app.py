@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import image
 
 st.title("THIS IS A SIMULATION")
 
